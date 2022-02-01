@@ -1,6 +1,7 @@
 public class Boot {
 
     public static void main(String[] args) {
-        new Game("", 500,500);
+        Game game = new Game("", 640,360);
+        game.start();
     }
 }
